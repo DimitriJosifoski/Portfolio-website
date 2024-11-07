@@ -59,6 +59,19 @@ section#home {
     padding: 4em 1em;
 }
 
+body #projects a {
+    color: blue;
+    text-decoration: none;
+}
+
+body #projects a:hover {
+    text-decoration: underline;
+}
+
+body #projects a:visited {
+   color: purple;
+}
+
 h2 {
     margin-bottom: 0.5em;
     font-size: 2em;
@@ -119,4 +132,21 @@ body.dark-mode .project {
     background: #333;
     color: #f4f4f9;
     border-color: #666;
+}
+
+body.dark-mode h2 {
+    color: #FFF;
+}
+
+body.dark-mode #projects a {
+    color: #f1f18b;
+    text-decoration: none;
+}
+
+body.dark-mode #projects a:hover {
+    text-decoration: underline;
+}
+
+body.dark-mode #projects a:visited {
+    color: #dadab9;
 }
